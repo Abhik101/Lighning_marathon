@@ -2,8 +2,9 @@
 Lightning marathon 31 July
 
 1) Locker Service In Lightning Blocks :-
+Lightning Locker is a powerful security architecture for Lightning components. Lightning Locker enhances security by isolating Lightning components that belong to one namespace from components in a different namespace. Lightning Locker also promotes best practices that improve the supportability of your code by only allowing access to supported APIs and eliminating access to non-published framework internals.
 
-2) Lightning is MVC – T/F
+2) Lightning is MVC – T/F = False
 
 3) Dashboard can add how many Lightning Components---20
 
