@@ -75,21 +75,26 @@ refer  : https://www.forcetalks.com/salesforce-topic/how-to-ensure-fls-while-wor
      D. It includes responsive components
 
 
-16)Vf Can be used in
+16)Vf Can be used in -Developers can use Visualforce pages to:
+  -Override standard buttons, such as the New button for accounts, or the Edit button for contacts
+  -Override tab overview pages, such as the Accounts tab home page
+  -Define custom tabs
+  -Embed components in detail page layouts
+  -Create dashboard components or custom help pages
+  -Customize, extend, or integrate the sidebars in the Salesforce console (custom console components)
+  -Add menu items, actions, and mobile cards in the Salesforce app
 
-17 ) Component To Component Calling  In lightning ( Attributes , Application and component )
+17 ) Component To Component Calling  In lightning ( Attributes , Application and component )- We can call component inside component and components inside application.
 
-18) External Lookup ---- >
+18) External Lookup - An external lookup relationship links a child standard, custom, or external object to a parent external object. The values of the standard External ID field on the parent external object are matched against the values of the external lookup relationship field. For a child external object, the values of the external lookup relationship field come from the specified External Column Name.
+refer : https://help.salesforce.com/articleView?id=external_object_relationships.htm&type=5
+      : https://help.salesforce.com/articleView?id=external_object_external_lookup_relationships.htm&type=5
 
-Child Standard ,Custom ext Obj
+19) Upsert and external Id is used in "  ? - https://www.jitendrazaa.com/blog/salesforce/all-about-upsert-and-external-id-in-dataloader-and-apex-videos/
 
-Parent Ext Obj
+20)Standard Component Can be placed In App builder :  Canvas
 
-19 Upsert and external Id is used in "  ?
-
-20)Standard Component Can be placed In App builder---> Canvas
-
-21) when moved to Lightning experience which user will be able to see---
+21) When moved to Lightning experience which user will be able to see---
 
 22) How Can you Switch between 2 accounts in Lightning
 
@@ -105,8 +110,5 @@ accnt , Contact hierarcy , Shows upto 200 contacts
 
 27) From where events are fired In Lightning-à 3rd party , etc
 
-28) apex:slds :  Used ??
-
-29 ) Slds can be used Where
 
 30 )lightning/SF1 can be Customise Using App Builder ?
