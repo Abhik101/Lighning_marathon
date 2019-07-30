@@ -42,12 +42,12 @@ refer: https://salesforce.stackexchange.com/questions/232613/how-to-deploy-light
 
 10) which is Not  Macros Type                
 
-                1) Reversible
+                1) Reversible(this is not macro type)
+
 
                 2) Irreversible
 
-                3) regular (this is not macro type)
-
+                3) regular 
                 4) Bulk
 
  refer : https://www.forcetalks.com/blog/macros-one-of-the-most-severely-underused-salesforce-feature/
