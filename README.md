@@ -100,15 +100,24 @@ refer : https://help.salesforce.com/articleView?id=external_object_relationships
 
 23) Lightning experience supports
 
-accnt , Contact hierarcy , Shows upto 200 contacts
+accnt , Contact hierarcy , Shows upto 200 contacts- 2000
 
-24 Reports Sharing ---
+24 Reports Sharing ---on the basis of access level(viewwer,manager,editor,no access)
 
-25)Odata 2.0 is Used ?
+25)Odata 2.0 is Used ?-Salesforce Connect uses Open Data Protocol Version 2.0 or Version 4.0 to access data that’s stored outside Salesforce.
 
-26) How To load Aura :Doinit handler
+26) How To load Aura :Doinit handler:
+This aura handler goes like this:
 
-27) From where events are fired In Lightning-à 3rd party , etc
+<Aura> --> lightning specific keyword same as  <apex> in salesforce classic. 
+<aura:handler> --> is used to handle stanadard / custom events. 
+name="init" --> this is defining the name of aura:handler
+value={!this}  --> passing the current information to controller
+action ={!c.doInit} --> calling the "doInit" of controller.
+
+27) From where events are fired In Lightning-à 3rd party - 
+The third party javascript code is a different story. The lightning documentation says that you can only register/fire events from built-in resources such as components or related controllers/helpers.
+It appears you probably want to write a wrapper function in your component which will call the third party code and fire the event when done.
 
 
 30 )lightning/SF1 can be Customise Using App Builder ?
