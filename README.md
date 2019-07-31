@@ -121,3 +121,4 @@ It appears you probably want to write a wrapper function in your component which
 
 
 30 )lightning/SF1 can be Customise Using App Builder ?
+The Lightning App Builder is a point-and-click tool that makes it easy to create custom pages for the Salesforce mobile app and Lightning Experience, giving your users what they need all in one place. The Lightning App Builder is also a one-stop shop for configuring Lightning apps.
