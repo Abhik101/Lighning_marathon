@@ -125,3 +125,18 @@ The Lightning App Builder is a point-and-click tool that makes it easy to create
 
 31) How to deploy lightning components using change sets?
 Ans - Aura Component bnundle
+
+32) How to deploy from sandbox to production? 
+Ans - Ant , Force.com + eclipse, change set
+
+33) How many lightning components can be put in 1 lightning page area?
+Ans - ?
+
+34) Can a child lightning component inherit the CSS/styles from the parent lightning component?
+Ans - 
+
+35) What is the correct value for the 'Access' attribute?
+Ans- global
+
+36) What does Import wizard do?
+Ans -?
